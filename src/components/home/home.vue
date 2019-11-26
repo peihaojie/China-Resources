@@ -448,7 +448,7 @@ export default {
               normal: {
                 //判断
                 color: function(params) {
-                  if (params.value >= 75) {
+                  if (params.value >= 300) {
                     return "#fb497c";
                   } else {
                     return "#009b41";
